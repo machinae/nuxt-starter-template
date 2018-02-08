@@ -2,7 +2,7 @@
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
 
-Updated to include testing with Jest, CSS extraction, and other common sense
+Updated to include CSS extraction, and other common sense
 defaults for generating static sites.
 
 Live demo: https://starter.nuxtjs.org
