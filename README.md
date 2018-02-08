@@ -2,6 +2,9 @@
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
 
+Updated to include testing with Jest, CSS extraction, and other common sense
+defaults for generating static sites.
+
 Live demo: https://starter.nuxtjs.org
 
 ## Installation
@@ -9,13 +12,10 @@ Live demo: https://starter.nuxtjs.org
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt-community/starter-template my-project  
-$ cd my-project                     
-# install dependencies
-$ npm install # Or yarn install
+vue init machinae/nuxt-starter-template my-project  
+cd my-project                     
+yarn install
 ```
-
-> Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
 ## Usage
 
@@ -23,22 +23,14 @@ $ npm install # Or yarn install
 
 ``` bash
 # serve with hot reloading at localhost:3000
-$ npm run dev
+$ yarn run dev
 ```
 
 Go to [http://localhost:3000](http://localhost:3000)
-
-### Production
-
-``` bash
-# build for production and launch the server
-$ npm run build
-$ npm start
-```
 
 ### Generate
 
 ``` bash
 # generate a static project
-$ npm run generate
+$ yarn run generate
 ```
