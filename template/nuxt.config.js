@@ -21,5 +21,11 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
+    postcss: {
+      plugins: {
+        'postcss-custom-properties': false
+      }
+    }
   }
 }
